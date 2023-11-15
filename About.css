@@ -1,0 +1,17 @@
+.ff{
+    margin-top: 1300px;
+}
+.a-banner{
+    padding-top: 500px;
+}
+.sli-img-3{
+    height: 90vh;
+    width: 100vw; 
+    background-image: url(./Image/fixtbg.webp);  
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}

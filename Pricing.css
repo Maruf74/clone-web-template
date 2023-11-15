@@ -1,0 +1,619 @@
+/* .ff{
+    margin-top: 1300px;
+} */
+.a-banner{
+    padding-top:500px !important;
+}
+.sli-img-3{
+    height: 90vh;
+    width: 100vw; 
+    background-image: url(./Image/fixtbg.webp);  
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    font-family:'Roboto',sans-serif;
+    
+}
+.container{
+    max-width: 1050px !important;
+}
+.top-header{
+    
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+}
+.top-header a{
+    font-size: 15px;
+    color: white;
+}
+.nav-bg{
+    background-color: rgba(180, 176, 176, 0.301);
+
+}
+.nav-b a:hover{
+    color: #FFF !important;
+}
+nav a{
+    margin-left: 20px;
+}
+a:hover{
+    color: #ffc107 !important;
+}
+/* a:active{
+    color: #FFC107 !important;
+} */
+
+
+
+
+
+.sli-img{
+    height: 100vh;
+    width: 100vw; 
+    background-image: url(./Image/banner-2.webp);  
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    
+}
+.sli-img-2{
+    height: 100vh;
+    width: 100vw; 
+    background-image: url(./Image/banner-1.webp);  
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+
+.banner-text{
+    min-width: 600px;
+    padding-top: 200px;
+    height: 100vh; 
+    align-items: center;
+}
+.banner-text >p{
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+.banner-text h1{
+    font-weight: bolder;
+    font-size: 52PX;
+}
+.banner-text button{
+    font-size: 13px;
+    
+}
+
+
+.card-bg{
+    height: auto;
+    background-attachment: fixed;
+    background-image: url(./Image/bg-texer.webp);
+    background-color: blue;
+}
+.carde{
+    
+    height: 200px;
+    width: 220px;
+    background-color:  black ;
+    color: white;
+    padding: 30px;
+    border-radius:10px;
+    transition: .5s;
+}
+.carde p{
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 9px;
+}
+.carde>i{
+    margin-left: 80px;
+    color: #ffc107;
+}
+.hoverico{
+    position: relative;
+    display: flex;
+    height: 30px;
+    width:  30px;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+    border-radius: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    top: -5px;
+    left: 30px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.carde:hover.carde p {
+    color: black;
+}
+.carde:hover .ci {
+    color: black;
+
+}
+
+.carde:hover .hoverico{
+    opacity: 1;
+    transform: translateX(60px);
+    cursor: pointer;
+}
+
+.carde:hover{
+    background-color: #ffc107;
+}
+
+.cardactive{
+    background-color: #ffc107;
+    color: black;
+}
+
+.flote{
+    position: relative;
+    height: auto;
+    width: 300px;
+    background-color: #ffc107 ;
+    top: 80px;
+    left: -100px;
+}
+.iconn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width:  60px;
+    padding: 10px;   
+    border-radius: 50%;
+}
+.f-p {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bolder;
+}
+.p-c i{
+    background-color: #ffc107;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.p-c{
+    background-image: url(./Image/fixtbg.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.501);
+    background-blend-mode: darken;
+    width: 100%;
+
+}
+.p-c h3{
+    font-weight: bold;
+}
+.p-c p{
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.p-c-info{
+    color: white;
+   padding-top:  100px;
+   padding-bottom:  100px;
+}
+.coll-bg{
+    background-color: #F4F5F9;
+}
+
+.p-f{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(213, 214, 214);
+    height: 5px;
+    border-radius: 10px;
+}
+.p-h{
+    background-color:#ffc107;
+    height: 5px;
+    border-radius: 10px;
+}
+
+
+.p-value{
+    position: relative;
+    top: -25px;
+    color:#ffc107 ;
+    left: 100%;
+    display: inline;
+   
+}
+
+.btn-custom{
+    top: -100px;
+    left: 850px;
+    border-radius: 0px !important;
+}
+
+.cad{
+    
+    background-image: url(./Image/tem.webp);
+    height: 350px;
+    width: auto;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+.cad::before{
+    display: block;
+    content: "";
+    background-color: #ccb11891;
+    width: 100%;
+    height: 175px;
+    transition: .5s;
+    transform: translateY(-175px);
+}
+.cad::after{
+    position: absolute;
+    display: block;
+    content: " ";
+    background-color: #ccb11891;
+    width: 100%;
+    height: 175px;
+    bottom: 0;
+    transition: .5s;
+    transform: translateY(175px);
+    
+    
+}
+
+.cad:hover.cad::before{
+    transform: translateY(0px);
+    transition: .5s;
+}
+
+.cad:hover.cad::after{
+    transform: translateY(0px);
+    transition: .5s;
+}
+.cad:hover .cad-text{
+    opacity: 1;
+}
+
+.cad-text{
+     position: relative;
+     top: -40px;
+     text-align: center;
+     opacity: 0;
+     transition: .5s;
+     z-index: 1;
+    
+}
+
+.cad-text i{
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid white;
+}
+.mo{
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.rec-pro-bg {
+    background-color: #232429;
+    height: 470px;
+    position: relative;
+}
+
+
+.cad2{
+    
+    background-image: url(./Image/tem.webp);
+    height: 340px;
+    width: 319px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    
+
+    
+}
+
+.cad2::before{
+    display: block;
+    content: "";
+    background-color: #00000091;
+    width: 100%;
+    height: 170px;
+    transition: .5s;
+    transform: translateY(-175px);
+}
+.cad2::after{
+    position: absolute;
+    display: block;
+    content: " ";
+    background-color: #00000091;
+    width: 100%;
+    height: 170px;
+    bottom: 0;
+    transition: .5s;
+    transform: translateY(175px);
+    
+    
+}
+
+.cad2:hover.cad2::before{
+    transform: translateY(0px);
+    transition: .5s;
+}
+
+.cad2:hover.cad2::after{
+    transform: translateY(0px);
+    transition: .5s;
+}
+.cad2:hover .cad2-text{
+    opacity: 1;
+}
+
+.cad2-text{
+    bottom: -80px;
+    margin-left: 20px;
+     position: relative;
+
+     opacity: 0;
+     transition: .5s;
+     z-index: 1;
+    
+}
+
+
+.mo{
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+.cad2-ico{
+    font-weight: bolder !important;
+    position: absolute;
+    display: flex;
+    align-items: center;justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #FFC107;
+    top: 20px;
+    right: 20px;
+}
+.rec-pro-bg::after{
+    content: "";
+    display: block;
+    background-color: #F3F4F8;
+    height: 1250px;
+    width: 100%;
+    position: absolute;
+    top: 470px;
+    z-index: -1;
+}
+
+.s-c{
+    
+    display: inline-block;
+   
+    margin-top: 50px;
+    background-color: white;
+    height: 280px;
+    width: 310px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 35px;
+
+}
+.s-c img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.s-c-ico{
+    color: #ffc107;
+    display: inline;
+    font-size: 13px;
+    
+}
+.s-c-info p{
+     font-size: 13px;
+}
+
+#c-btn{
+    color: #ffc107 !important;
+    margin-top: 500px;
+}
+.carousel-indicators button{
+    position: relative;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    color: #ffc107 !important;
+    border: 2px solid #ffc107 !important;
+    background-color: transparent !important;
+    bottom: -80px !important;
+}
+.OUR-BLOG{
+    padding-top: 20px;
+    margin-bottom:50px ;
+}
+.flo{
+ position: relative;
+ padding: 10px;
+ border-radius: 10px;
+ bottom: 3px;
+ text-align: center;
+ width: 250px;
+ bottom:  -230px;
+ z-index: 1;
+ background-color: rgb(255, 255, 255);
+ margin: auto;
+ font-size: 13px;
+
+}
+.flo i{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.flo span:hover{
+    color: #ffc107;
+    transition: .5s;
+    cursor: pointer;
+    
+    
+}
+.info{
+    width: 320px;
+
+    padding: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.info i{
+    color: #FFC107;
+    
+}
+.img{
+    
+    width: 320px;
+    height: 250px;
+    background-image: url("./Image/recpost.webp");
+    background-position: center;
+    background-size: cover;
+}
+.price {
+    font-size: 25px;
+    background-color: #F4F5F9;
+    width: 320px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.price span{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+.from-bg{
+    position: relative;
+    background-color: #CFBA35;
+    width: 1020px;
+    height: 246px;
+    background-image: url(./Image/fixtbg.webp);
+    background-position: center;
+    background-size: cover;
+    bottom: -80px;
+    background-blend-mode:soft-light ;
+    text-align: center;
+    border-radius: 10px;
+
+
+   
+}
+.inp{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px ;
+}
+.from-bg input{
+    border: none;
+  
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+
+    
+}
+.from-bg input:focus{
+    border: none;
+}
+.footer{
+    background-color: #232429;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+.footer-ico{
+    display: inline;
+}
+
+.footer-ico i{
+padding-top: 12px;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: #ffc107;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+}
+li{
+    transition: .5s;
+}
+
+li:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+ .fi{
+    color: #ffc107;
+}
+
+.l-footer{
+    background-color: black;
+}
+
+
+
+
+
